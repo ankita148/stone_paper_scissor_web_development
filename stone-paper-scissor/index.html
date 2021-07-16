@@ -1,0 +1,63 @@
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>Rock Paper Scissor Game</title>
+  <link rel="stylesheet" href="style.css"></link>
+  
+  <script type="text/javascript">
+			function showMessage(){
+				alert("Rock wins against scissors. Scissors win against paper.Paper wins against rock. Score doesn't change when there is draw");
+			}
+		</script>
+		
+  
+  
+  </head>
+       <body>
+	         <header>
+			 <h1><u>Rock Paper Scissors</u></h1>
+			 
+			 
+			 <center>
+		        <input type="button" id="action" value="Instructions!" onClick='showMessage()'/>
+	</center>
+			 
+
+			 </header>
+			 <p class="score-board-head">SCORE BOARD</p>
+			 <div class="score-board">
+			    <div id="user-lable" class="badge">user</div>
+				<div id="computer-lable" class="badge">comp</div>
+			    <span id="user-score">0</span>:<span id="computer-score">0</span>
+			 </div>   
+			 
+				<div class="result">
+			    <p>Choose your choice...</p>
+				
+			    </div>
+				
+				   <div class="images">
+				   <img class="choices" id="p" src="images/paper.PNG" width="100" height="100" alt="">
+		           <img  class="choices" id="r" src="images/stone.PNG" width="100" height="100" alt="">
+			       <img class="choices" id="s"src="images/Scissor.PNG" width="100" height="100" alt="">
+				
+				 </div>
+			  
+			 
+			 
+			 
+			 
+			 
+	   
+	   
+	   
+	   <script type="text/javascript" src="app.js" ></script>
+	    
+
+	   
+	   </body>
+	   
+
+
+
+</html>
